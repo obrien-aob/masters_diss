@@ -1,1 +1,2 @@
-# masters_diss
+# Masters Dissertation
+This repository contains the code and final report for my masters dissertation. The aim of the dissertation was to build a model based unsupervised learning that whose cost scales well with dimensions and that can handle any type of data, i.e. continuous and discrete/ bounded and unbounded etc. This was done with a pairwise copula mixture model. To produce a fitting algorithm, a literature review of different EM algorithms was completed and an ECM approach was found. The result was a mixture model that is far more flexible than the commonly used Gaussian mixture model and has a lower time complexity, O(n^2) vs O(n^3). 
